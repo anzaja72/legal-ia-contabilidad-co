@@ -10,6 +10,12 @@ Plugin de Claude Code con skills de contabilidad y tributación colombiana. Las 
 | `planeacion-tributaria-persona-juridica` | Comparar escenarios del formulario 110 y medir la tasa mínima del 15 % |
 | `planeacion-tributaria-persona-natural` | Comparar escenarios del formulario 210 (AFC, dependientes, medicina prepagada) |
 | `elegir-regimen-simple-u-ordinario` | Decidir con cifras si conviene el SIMPLE o el régimen ordinario |
+| `depuracion-gastos-no-deducibles` | Revisar los gastos contra los requisitos del E.T. y medir su efecto en el impuesto |
+| `cierre-mensual-co` | Cerrar el mes: conciliaciones, documentos electrónicos, retenciones, IVA y reteICA verificados |
+| `cierre-anual-co` | Cerrar el año: ajustes, provisión de renta, ICA anual, certificados, exógena y obligaciones societarias |
+| `conciliacion-fiscal` | Puente de la utilidad contable a la renta líquida, impuesto diferido y formato 2516 |
+| `flujo-caja-impuestos` | Calendario mes a mes de los pagos de impuestos y costo de pagar tarde |
+| `estados-financieros-niif-pymes` | Estados financieros del grupo 2 desde el balance de prueba, con notas y certificaciones |
 
 ## Instalación
 
