@@ -59,6 +59,8 @@ uv run --with openpyxl python scripts/resumir_balance.py "BALANCE.xlsx" \
   --alza-diciembre-ingresos 0.3 --alza-diciembre-costos 0.3
 ```
 
+En la app de Claude (sin `uv`), ejecute el mismo script con `python`: `openpyxl` ya está instalado allí. El balance llega como archivo adjunto al chat.
+
 Lea del JSON: los saldos a la fecha por grupo PUC (41, 42, 51, 52, 53, 54, 59, 6, 7), la proyección a diciembre, las retenciones (135515) y autorretenciones (135519) acumuladas, las cuentas por cobrar a socios (1325) y la lista `cuentas_a_revisar_no_deducibles`.
 
 Control: la utilidad del balance (clase 4 menos clases 5, 6 y 7) debe coincidir con la del estado de resultados del cliente. Si no coincide, deténgase y pregunte.

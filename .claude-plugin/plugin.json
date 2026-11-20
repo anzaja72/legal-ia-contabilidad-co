@@ -1,6 +1,6 @@
 {
   "name": "contabilidad-co",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Contabilidad y tributación colombiana con cifras del motor fiscal de Legal-IA: proyección de renta de sociedades desde el balance de prueba (con tablero), planeación de renta de personas naturales y jurídicas, y comparación SIMPLE contra régimen ordinario. Cada cifra sale del motor con su norma; nada se estima.",
   "author": {
     "name": "Legal-IA"
@@ -22,10 +22,19 @@
   "mcpServers": {
     "motor-fiscal": {
       "type": "http",
-      "url": "${MOTOR_FISCAL_MCP_URL:-https://mcp.tributar-ia.com.co/mcp}",
+      "url": "https://mcp.tributar-ia.com.co/mcp",
       "headers": {
-        "Authorization": "Bearer ${MOTOR_FISCAL_TOKEN}"
+        "Authorization": "Bearer ${user_config.motor_fiscal_token}"
       }
+    }
+  },
+  "userConfig": {
+    "motor_fiscal_token": {
+      "type": "string",
+      "title": "Token del motor contable",
+      "description": "Cópielo de su cuenta en https://cuenta.legal-ia.co (botón «Generar token»). Se guarda en el llavero del sistema.",
+      "sensitive": true,
+      "required": true
     }
   }
 }
