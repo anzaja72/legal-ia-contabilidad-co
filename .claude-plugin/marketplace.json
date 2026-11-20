@@ -11,7 +11,7 @@
       "name": "contabilidad-co",
       "source": "./",
       "description": "Contabilidad y tributación colombiana con cifras del motor fiscal de Legal-IA: proyección de renta de sociedades desde el balance de prueba (con tablero), planeación de renta de personas naturales y jurídicas, y comparación SIMPLE contra régimen ordinario. Cada cifra sale del motor con su norma; nada se estima.",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "category": "finance"
     }
   ]
