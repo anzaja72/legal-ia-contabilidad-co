@@ -1,0 +1,31 @@
+{
+  "name": "contabilidad-co",
+  "version": "0.1.0",
+  "description": "Contabilidad y tributación colombiana con cifras del motor fiscal de Legal-IA: proyección de renta de sociedades desde el balance de prueba (con tablero), planeación de renta de personas naturales y jurídicas, y comparación SIMPLE contra régimen ordinario. Cada cifra sale del motor con su norma; nada se estima.",
+  "author": {
+    "name": "Legal-IA"
+  },
+  "homepage": "https://cuenta.legal-ia.co",
+  "repository": "https://github.com/anzaja72/legal-ia-contabilidad-co",
+  "license": "SEE LICENSE",
+  "keywords": [
+    "colombia",
+    "contabilidad",
+    "impuestos",
+    "dian",
+    "renta",
+    "ica",
+    "retencion",
+    "niif",
+    "mcp"
+  ],
+  "mcpServers": {
+    "motor-fiscal": {
+      "type": "http",
+      "url": "${MOTOR_FISCAL_MCP_URL:-https://mcp.tributar-ia.com.co/mcp}",
+      "headers": {
+        "Authorization": "Bearer ${MOTOR_FISCAL_TOKEN}"
+      }
+    }
+  }
+}
