@@ -15,6 +15,7 @@ Plugin de Claude Code con skills de contabilidad y tributación colombiana. Las 
 | `cierre-anual-co` | Cerrar el año: ajustes, provisión de renta, ICA anual, certificados, exógena y obligaciones societarias |
 | `conciliacion-fiscal` | Puente de la utilidad contable a la renta líquida, impuesto diferido y formato 2516 |
 | `flujo-caja-impuestos` | Calendario mes a mes de los pagos de impuestos y costo de pagar tarde |
+| `nomina-pila` | Nómina del mes por trabajador: IBC, aportes, parafiscales, provisiones, retención y costo total del empleador |
 | `estados-financieros-niif-pymes` | Estados financieros del grupo 2 desde el balance de prueba, con notas y certificaciones |
 
 ## Instalación
